@@ -1,3 +1,9 @@
+<?php
+
+require_once ('./php/component.php')
+
+?>
+
 <!doctype html>
 <html lang="en">
 <head>
@@ -8,16 +14,23 @@
     <title>Shopping Cart</title>
 
     <!-- Font Awesome -->
-    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" integrity="sha256-h20CPZ0QyXlBuAw7A+KluUYx/3pK+c7lYEpqLTlxjYQ=" crossorigin="anonymous" />
 
     <!-- Bootstrap CDN -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
     <div class="container">
         <div class="row text-center py-5">
-            <div class="col-md-3 col-sm-"></div>
+            <?php
+            component("Product1", 599, "./upload/product1.png");
+            component("Product2", 999, "./upload/product2.png");
+            component("Product3", 59, "./upload/product3.png");
+            component("Product4", 89, "./upload/product4.png");
+            ?>
         </div>
     </div>
 
