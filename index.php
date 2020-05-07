@@ -23,22 +23,22 @@ require_once ('./php/component.php')
 
     <!-- Bootstrap CDN -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
->>>>>>> d41c9fcf91bde8568c3c00bbd46afe544ad62471
+
 </head>
 <body>
 
     <div class="container">
         <div class="row text-center py-5">
-<<<<<<< HEAD
+
             <?php
             component("Product1", 599, "./upload/product1.png");
             component("Product2", 999, "./upload/product2.png");
             component("Product3", 59, "./upload/product3.png");
             component("Product4", 89, "./upload/product4.png");
             ?>
-=======
+
             <div class="col-md-3 col-sm-"></div>
->>>>>>> d41c9fcf91bde8568c3c00bbd46afe544ad62471
+
         </div>
     </div>
 
